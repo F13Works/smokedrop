@@ -1,27 +1,41 @@
 <?php
-/*
-Plugin Name: SmokeDrop
-Description: Dropship Marketplace - Import & dropship products in your woocommerce store.
-Version: 1.0.1
-Author: SmokeDrop
-Text Domain: smokedrop
-Author URI: https://thesmokedrop.com
-License: GPL2
-Text Domain: SmokeDrop
-*/
-add_action('admin_menu', 'smokedrop_plugin_setup_menu');
- 
-function smokedrop_plugin_setup_menu(){
-    add_menu_page( 'SmokeDrop', 'SmokeDrop', 'manage_options', 'smokedrop-plugin', 'smokedrop_init', plugins_url( 'smokedrop/images/sd.png' ) );
-	
-}
- 
-function smokedrop_init(){
-    echo '<h1>SmokeDrop</h1> <a type="submit" href="https://wholesale.thesmokedrop.com" target="_blank" class="button button-primary"
-    id="btn-submit">Go To SmokeDrop Dashboard</a>  
-    <p style="font-style: italic">If your site is not yet connected to SmokeDrop, please follow the <a
-            href="https://thesmokedrop.com/how-to-connect-a-woocommerce-store-to-smoke-drop/">instalation instructions.</a></p>		   
-    ';
 
+/*
+Plugin Name:    SmokeDrop
+Plugin URI:     https://thesmokedrop.com
+Description:    Dropship Marketplace - Import & dropship products in your woocommerce store.
+Version:        1.0.1
+Requires PHP:   7.4
+Author:         SmokeDrop
+Author URI:     https://thesmokedrop.com
+License:        GPL v2 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.txt
+Text Domain:    smokedrop
+Domain Path:    /languages
+*/
+
+// If this file is called directly, abort.
+if ( !defined( 'WPINC' ) ) {
+	die;
 }
-?>
+
+/**
+ * Currently plugin version and defined constants.
+ * Start at version 1.0.0 and use SemVer - https://semver.org
+ */
+define( 'SMOKEDROP_SLUG', plugin_basename( __DIR__ ) );
+define( 'SMOKEDROP_BASEFILE', plugin_basename( __FILE__ ) );
+define( 'SMOKEDROP_VERSION', '1.0.1' );
+define( 'SMOKEDROP_CACHE_KEY', 'smokedrop_updater' );
+define( 'SMOKEDROP_CACHE_ALLOWED', false );
+
+// Include the main plugin class
+require_once plugin_dir_path( __FILE__ ) . 'includes/class-smokedrop.php';
+
+// Initialize the plugin
+function smokedrop_execute() {
+    $plugin_instance = new SmokeDrop();
+    $plugin_instance->smokedrop_run();
+}
+
+smokedrop_execute();

@@ -1,12 +1,12 @@
-=== SmokeDrop: Dropshipping Market Place For WooCommerce ===
-Author URI: https://www.thesmokedrop.com
+=== SmokeDrop ===
+Author URI: https://thesmokedrop.com
 Contributors: SmokeDrop
-Tags: SmokeDrop, Dropshipping, Wholesale, DropShip, Marketplace
-Requires at least: 5.0
-Tested up to: 6.5.2
-Requires PHP: 5.6
-Stable tag: 1.0.1
-License: GPL-2.0
+Tags: smokedrop, dropshipping, wholesale, dropdhip, marketplace
+Requires at least: 5.6
+Tested up to: 6.6.2
+Requires PHP: 7.4
+Stable tag: 1.0.0
+License: GPL v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 SmokeDrop offers access thousands of products and accessories you can dropship on your woocommerce store.
@@ -20,6 +20,7 @@ Browse an extensive catalog of smoke products & accessories to dropship.
 - We carry all the latest products from the industries top brands
 
 == Features ==
+
 *1. SmokeDrop empowers dropshippers & brands to work together efficiently*
 - Import products to your online store in just few clicks
 - Easily manage orders in your WooCommerce
