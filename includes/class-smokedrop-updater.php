@@ -195,7 +195,7 @@ if( !class_exists( 'SmokeDrop_Updater' ) ) {
 
 			if( false === $cache_trans || !$this->cache_allowed ) {
 				$request = wp_remote_get(
-					'https://wp.serverhome.biz/smokedrop/info.json',
+					'https://raw.githubusercontent.com/F13Works/smokedrop/refs/heads/master/manifest.json',
 					array(
 						'timeout' => 15,
 						'headers' => array(

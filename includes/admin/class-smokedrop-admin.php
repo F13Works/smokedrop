@@ -112,7 +112,7 @@ if( !class_exists( 'SmokeDrop_Admin' ) ) {
             }
 
             $request = wp_remote_get(
-                'https://wp.serverhome.biz/smokedrop/info.json',
+                'https://raw.githubusercontent.com/F13Works/smokedrop/refs/heads/master/manifest.json',
                 array(
                     'timeout' => 15,
                     'headers' => array(
