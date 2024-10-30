@@ -1,0 +1,62 @@
+/**
+* All of the CSS for your admin-specific functionality 
+* should be included in this file.
+*/
+
+:root {
+    --color-white: #ffffff;
+    --color-border: #e8e8e8;
+
+    --boxshadow-primary: 2px 2px 7px rgba( 0, 0, 0, 0.07 );
+}
+
+[class^="smokedrop-"] p,
+[class^="smokedrop-"] li {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+[class^="smokedrop-"] h1 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 100%;
+    margin: 15px 0 20px;
+}
+
+[class^="smokedrop-"] h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    margin: 15px 0;
+}
+
+.smokedrop-section {
+    background: var(--color-white);
+    margin: 25px 25px 25px 5px;
+}
+
+.smokedrop-container {
+    border: var(--color-border);
+    border-radius: 5px;
+    padding: 20px 35px 35px;
+    box-shadow: var(--boxshadow-primary);
+}
+
+.smokedrop-card-integrate {
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.smokedrop-card-updater .smokedrop-update-message {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.smokedrop-update-button {
+    display: inline-flex;
+    column-gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 12px 0;
+}

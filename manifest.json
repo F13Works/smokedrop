@@ -1,0 +1,25 @@
+{
+    "name": "SmokeDrop",
+    "slug": "smokedrop",
+    "author": "<a href='https://thesmokedrop.com/'>SmokeDrop</a>",
+    "author_profile": "http://profiles.wordpress.org/smokedrop",
+    "version": "1.0.1",
+    "download_url": "https://wp.serverhome.biz/smokedrop/smokedrop.zip",
+    "requires": "5.6",
+    "tested": "6.6.2",
+    "requires_php": "7.4",
+    "last_updated": "2024-10-26 02:10:00",
+    "sections": {
+        "description": "Dropship Marketplace - Import & dropship products in your woocommerce store.",
+        "installation": "Click the activate button and that's it.",
+        "changelog": "<h4>1.0.1 –  25 October 2024</h4><ul><li>Bug fixes.</li><li>Initital release.</li></ul>"
+    },
+    "icons": {
+        "low": "https://wp.serverhome.biz/smokedrop/assets/icon-128x128.png",
+        "high": "https://wp.serverhome.biz/smokedrop/assets/icon-256x256.png"
+    },
+    "banners": {
+        "low": "https://wp.serverhome.biz/smokedrop/assets/banner-772x250.jpg",
+        "high": "https://wp.serverhome.biz/smokedrop/assets/banner-1544x500.jpg"
+    }
+}
