@@ -70,6 +70,9 @@ if ( !defined( 'ABSPATH' ) ) {
                         <li><?php esc_html_e( 'You’ve successfully connected your WooCommerce store to the app', 'smokedrop' ); ?></li>
                     </ol>
                 </div>
+                <div class="smokedrop-dashboard-link">
+                    <a href="https://wholesale.thesmokedrop.com/" class="button button-primary" target="_blank" rel="noopener noreferrer">Go To Dashboard</a>
+                </div>
             </div>
 
             <div class="smokedrop-card-updater">
