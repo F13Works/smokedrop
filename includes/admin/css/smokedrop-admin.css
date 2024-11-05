@@ -48,6 +48,10 @@
     border-bottom: 1px solid var(--color-border);
 }
 
+.smokedrop-dashboard-link {
+    margin: 25px 0 10px;
+}
+
 .smokedrop-card-updater .smokedrop-update-message {
     font-size: 15px;
     font-weight: 500;
