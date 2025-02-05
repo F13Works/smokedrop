@@ -4,7 +4,7 @@
 Plugin Name:    SmokeDrop
 Plugin URI:     https://thesmokedrop.com
 Description:    Dropship Marketplace - Import & dropship products in your woocommerce store.
-Version:        1.0.1
+Version:        1.2.0
 Requires PHP:   7.4
 Author:         SmokeDrop
 Author URI:     https://thesmokedrop.com
@@ -25,7 +25,7 @@ if ( !defined( 'WPINC' ) ) {
  */
 define( 'SMOKEDROP_SLUG', plugin_basename( __DIR__ ) );
 define( 'SMOKEDROP_BASEFILE', plugin_basename( __FILE__ ) );
-define( 'SMOKEDROP_VERSION', '1.0.1' );
+define( 'SMOKEDROP_VERSION', '1.2.0' );
 define( 'SMOKEDROP_CACHE_KEY', 'smokedrop_updater' );
 define( 'SMOKEDROP_CACHE_ALLOWED', false );
 
