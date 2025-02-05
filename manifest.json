@@ -3,16 +3,16 @@
     "slug": "smokedrop",
     "author": "<a href='https://thesmokedrop.com/'>SmokeDrop</a>",
     "author_profile": "http://profiles.wordpress.org/smokedrop",
-    "version": "1.1.0",
-    "download_url": "https://github.com/F13Works/smokedrop/releases/download/v1.1.0/smokedrop.zip",
+    "version": "1.2.0",
+    "download_url": "https://github.com/F13Works/smokedrop/releases/download/v1.2.0/smokedrop.zip",
     "requires": "5.6",
-    "tested": "6.6.2",
+    "tested": "6.7",
     "requires_php": "7.4",
-    "last_updated": "2024-11-05 12:25:00",
+    "last_updated": "2025-02-05 12:25:00",
     "sections": {
-        "description": "Dropship Marketplace - Import & dropship products in your woocommerce store.",
+        "description": "Dropship Marketplace - Import & dropship products in your WooCommerce store.",
         "installation": "Click the activate button and that's it.",
-        "changelog": "<h4>1.1.0 –  5 November 2024</h4><ul><li>Bug fixes and improvements.</li></ul>"
+        "changelog": "<h4>1.2.0 - 5 February 2025</h4><ul><li>Fixed the update issue that reverted back to the old plugin version.</li><li>Made the plugin compatible with WordPress version 6.7.</li></ul><h4>1.1.0 - 5 November 2024</h4><ul><li>Bug fixes and improvements.</li></ul>"
     },
     "icons": {
         "low": "https://raw.githubusercontent.com/F13Works/smokedrop/refs/heads/master/.wordpress-org/icon-128x128.png",
